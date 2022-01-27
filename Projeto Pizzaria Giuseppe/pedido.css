@@ -1,0 +1,98 @@
+.barra {
+    background-color: rgb(111, 12, 12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    text-align: center;
+    justify-content: space;
+    background-image: url(Imagens/foguinho.jpg);
+    background-size: 400px;
+}
+
+body{
+    background-image: url("Imagens/madeira.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 1100px;
+    background-position: center;
+    
+}
+
+#negocio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(192, 3, 3, 0.741);
+    height: 5vh;
+    font-size: medium;
+}
+
+#montepizza{
+    
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.493);
+    border-radius: 25px;  
+}
+
+#infos{
+    background-color: rgba(240, 255, 255, 0.493);
+    margin-bottom: 5000px;
+    border-radius: 25px;
+    width: 500px;
+    color:rgb(238, 211, 58);
+}
+
+#conteudo{
+    justify-content: space-around;
+    display: flex;
+    justify-items: left;
+    margin-top: 350px;
+    margin-bottom: 190px;
+}
+
+label {
+    display: inline-block;
+    width: 170px;
+    color:rgb(238, 211, 58);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+footer{
+    bottom: 0;
+    background-color: rgb(143, 23, 23);
+    color:rgb(209, 169, 36);
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+a{
+    color:rgb(238, 211, 58);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+h1{
+    color:darkred;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.446);
+}
+
+h2{
+    color:rgb(238, 211, 58);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+
+
+
+
